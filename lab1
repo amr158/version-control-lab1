@@ -31,3 +31,7 @@ invitation
 -git add lab1
 -git commit -m "lab 1 solution"
 -git push origin master
+
+#for bitbucket
+-git remote add bitbucket_origin git@bitbucket.org:amr105/version-control-lab1.git
+-git push bitbucket_origin master
