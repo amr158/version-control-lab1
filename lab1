@@ -25,5 +25,9 @@ invitation
 
 -mkdir version-control-lab1
 -cd version-control-lab1
--git remote add origin https://github.com/amr158/version-control-lab1
-
+-git remote add origin git@github.com:amr158/version-control-lab1.gi
+-touch lab1
+-vi lab1
+-git add lab1
+-git commit -m "lab 1 solution"
+-git push origin master
