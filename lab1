@@ -1,0 +1,29 @@
+#install git
+
+-sudo apt install git
+-git config --global user.name "amr ahmed"
+-git config --global user.email amr2017170269@cis.asu.edu.eg
+-ssh-keygen -t rsa -b 4069 -C "amr2017170269@cis.asu.edu.eg"
+--copy the public key and go to the accout to add the key in ssh and gpg keys
+-----------------------------------------------------------------
+#Accept my invitation in opensource repository from gmail. Then clone it
+to your machine, and upload file with your full name
+
+-git@github.com:FatmaKhaled/cloud42.git
+-cd cloud42
+-touch Amr_Ahmed_Mohamed
+-vi Amr_Ahmed_Mohamed
+-git add Amr_Ahmed_Mohamed
+-git commit -m "amr ahmed version control lab 1"
+-git push origin main
+------------------------------------------------------------------
+#create a local repository on your machine, and create a remote
+repository in github (and bitbucket). Then Upload a file with your full
+name from your local repository to remote repository. And send me an
+invitation
+
+
+-mkdir version-control-lab1
+-cd version-control-lab1
+-git remote add origin https://github.com/amr158/version-control-lab1
+
