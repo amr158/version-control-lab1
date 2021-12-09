@@ -1,5 +1,4 @@
 #install git
-elaria adham try
 -sudo apt install git
 -git config --global user.name "amr ahmed"
 -git config --global user.email amr2017170269@cis.asu.edu.eg
